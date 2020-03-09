@@ -1,0 +1,42 @@
+{
+  "name": "onix-io-postmessage",
+  "version": "1.0.6",
+  "description": "Window.postMessage implementation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "webpack": "webpack --config webpack.config.js",
+    "stats": "webpack --profile --json > stats.json",
+    "statsp": "webpack --profile --json --mode=production > stats.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrNixx/onix-io-postmessage.git"
+  },
+  "keywords": [
+    "onix",
+    "io",
+    "network",
+    "postMessage"
+  ],
+  "author": "Nick Panteleeff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DrNixx/onix-io-postmessage/issues"
+  },
+  "homepage": "https://github.com/DrNixx/onix-io-postmessage#readme",
+  "dependencies": {
+    "lodash-es": "^4.17.15"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.3",
+    "@types/node": "^13.9.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
