@@ -1,4 +1,5 @@
-# Onix IO postMessage [![npm][npm-badge]][npm]
+#onix-io-postmessage
+[![npm version][npm-badge]][npm] [![npm downloads][npd-badge]][npm] [![dependencies Status][dps-badge]][dps]
 
 JavaSctipt wrapper for window.postMessage.
 
@@ -8,5 +9,8 @@ JavaSctipt wrapper for window.postMessage.
 
 [MIT License](/LICENSE)
 
-[npm-badge]: https://badge.fury.io/js/onix-io-postmessage.svg
-[npm]: https://badge.fury.io/js/onix-io-postmessage
+[npm-badge]: https://img.shields.io/npm/v/onix-io-postmessage?style=flat
+[npd-badge]: https://img.shields.io/npm/dm/onix-io-postmessage.svg?style=flat-square
+[dps-badge]: https://david-dm.org/DrNixx/onix-io-postmessage/status.svg
+[dps]: https://david-dm.org/DrNixx/onix-io-postmessage
+[npm]: https://www.npmjs.com/package/onix-io-postmessage
