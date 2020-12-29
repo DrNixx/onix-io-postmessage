@@ -1,4 +1,4 @@
-import isFunction from 'lodash-es/isFunction';
+import isFunction from 'lodash/isFunction';
 
 // A few vars used in non-awesome browsers.
 let last_hash = null;
